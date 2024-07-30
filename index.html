@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request A Quote</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+    <nav>
+        <img src ="logo.jpeg">
+   
+        <ul>     <div class="topnav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Company</a></li>
+            <li><div class="lang-select">
+                <select name="Country" id="Country">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="America">America</option>
+                <option value="Japan">Japan</option>
+            </select></div></li>
+            </div>
+            <div class="contact-bar">
+                <div class="contact-info">
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> field@example.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> +123 456 7890</p>
+                </div>
+                <div class="auth-links">
+                    <a href="#">Login</a>
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+            <h1> Request a Quote</h1>
+         
+        </ul>
+    </nav>
+           
+    </header>
+
+<section class="form-section">
+    <form action="#">
+        <div class="form-grid">
+            <div class="form-left">
+                <label for="name">Your name</label>
+                <input type="text" placeholder="Enter your name" id="name" name="name" required>
+
+                <label for="phone">Phone number</label>
+                <input type="tel"placeholder="Enter your mobile number" id="phone" name="phone" required>
+
+                <label for="project-type">Project Type</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="">Select Project Type</option>
+                    <option value="web-development">Portfolio</option>
+                    <option value="mobile-app">Wireframes</option>
+                    <option value="seo">Bus Reservation</option>
+                </select>
+                <label for="time">Maximum time for the project</label>
+                <input type="tel" id="time" name="time" required>
+
+            </div>
+            <div class="form-right">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
+                
+                <label for="phone">Estimate Budget</label>
+                <input type="tel" id="budget" name="budget" required>
+
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" required>
+            </div>
+        </div>
+        <div class="form-upload">
+            <label for="file-upload" class="upload-label">Upload File</label>
+             <div id="drop-area">
+                <p>Drag and drop file here</p>
+                
+                <button>
+                <input type="file" id="file-upload" name="file-upload" required></button>
+           
+            </div>
+        </div>
+        <div class="form-message">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-submit">
+            <button type="submit">Request a Quote</button>
+        </div>
+    </form>
+</section>
+</main>
+
+<script>
+    
+</script>
+
+</body>
+</html>
+    
+</body>
+</html>
